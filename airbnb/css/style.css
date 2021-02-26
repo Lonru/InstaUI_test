@@ -1,0 +1,54 @@
+header{
+    /*
+    margin: 15;
+    padding :15;*/
+    background-size: auto;
+    background: url('/airbnb/images/background.jpg')
+    
+}
+.nav__logo{
+    margin: 15px;
+    color: white;
+}
+.nav__menu{
+    display: flex;
+    justify-content: space-between;
+    margin :15px ;
+    color: white;
+}
+.nav__menu ul{
+    display: flex;
+}
+.nav__menu ul a{
+    list-style-type: none;
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.search-form{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    margin: 25px;
+    background-color: white;
+}
+.btn1{
+    display: 
+    background-color: #ff5a5f;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    outline: 0;
+    height: 45px;
+    width: 170px;
+    justify-content: flex-end;
+}
+.btn1:hover{
+    background-color: aqua;
+}
